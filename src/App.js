@@ -5,12 +5,14 @@ import Message from './components/Message';
 import Stylesheet from './components/Stylesheet';
 import Forms from './components/Forms';
 import ComponentC from './components/ComponentC';
+import PostList from './components/PostList';
 
 
 function App() {
   return (
     <div className="App">
-      <ComponentC/>
+      <PostList/>
+      {/* <ComponentC/> */}
       {/* <Forms/> */}
       {/* <Stylesheet primary={true}/> */}
       {/* <Message/> */}
